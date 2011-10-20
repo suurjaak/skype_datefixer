@@ -10,4 +10,5 @@ date/time, new messages in Skype chat history will be added BEFORE the
 incorrectly timestamped messages, making it very hard to use Skype chat until
 the original future date is reached.
 
-Uses Python's Tkinter GUI module, should run on all systems.
+Uses Python's Tkinter GUI module, should run on all systems. A compiled EXE
+has been provided for Windows.
