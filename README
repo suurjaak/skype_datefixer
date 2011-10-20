@@ -1,0 +1,13 @@
+Script for fixing future dates in Skype chat history. On running, lets the user
+choose a Skype history file and shifts the timestamp of future messages to
+the past by a specified number of days.
+
+Background: message dates in Skype chat are given timestamps according to
+computer date/time on message receival, and they are sorted in the chat history
+by timestamp. For example, if the computer's date/time was one month in the
+future when the messages were received, then after fixing the computer
+date/time, new messages in Skype chat history will be added BEFORE the
+incorrectly timestamped messages, making it very hard to use Skype chat until
+the original future date is reached.
+
+Uses Python's Tkinter GUI module, should run on all systems.
