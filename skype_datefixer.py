@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 """
 Script for fixing future dates in Skype chat history. On running, lets the user
 choose a Skype history file and shifts the timestamp of future messages to
